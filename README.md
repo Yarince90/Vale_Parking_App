@@ -1,2 +1,2 @@
 # ValetParkingApp
-Final Project done for OOP244 at Seneca College (CPA Program)
+Final Project for OOP244 at Seneca College (CPA Program)
