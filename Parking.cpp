@@ -122,7 +122,7 @@ namespace sdds {
 						int spot = 0;
 
 						for (i = 0; i < m_parkingSpots && empty == false; i++) {
-							if (m_vehicles[i] == nullptr) {
+							if (!m_vehicles[i]) {
 								empty = true;
 								spot = i;
 							}

@@ -31,9 +31,9 @@ namespace sdds {
 	}
 	void MenuItem::setItem(const char* item) {
 
-		if (item != nullptr && item[0] != '\0') {
+		if (item && item[0] != '\0') {
 
-			if (m_menuItem != nullptr) {
+			if (m_menuItem) {
 				deleteMenuItem();
 			}
 
@@ -42,7 +42,7 @@ namespace sdds {
 
 		}
 		else {
-			if (m_menuItem != nullptr) {
+			if (m_menuItem) {
 				deleteMenuItem();
 			}
 			m_menuItem = nullptr;
